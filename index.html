@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css"/>
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        
+        <h1 class="nome">
+            Jogo da Velha
+        </h1>
+
+        <div class="tabuleiro" id="tabuleiro">
+            <div id="A">
+                <button id="A1" class="botao" type="button"> </button>
+                <button id="A2" class="botao" type="button"> </button>
+                <button id="A3" class="botao" type="button"> </button>
+            </div>
+            <div id="B">
+                <button id="B1" class="botao" type="button"> </button>
+                <button id="B2" class="botao" type="button"> </button>
+                <button id="B3" class="botao" type="button"> </button>
+            </div>
+            <div id="C">
+                <button id="C1" class="botao" type="button"> </button>
+                <button id="C2" class="botao" type="button"> </button>
+                <button id="C3" class="botao" type="button"> </button>
+            </div>
+        </div>
+
+        <div class="jogador">
+            <h1 class="jogador_nome" id="jogador"> Vez do Jogador X </h1>
+        </div>
+        <div class="botao_reset">
+            <button class="reset" id="botao_reset" type="button" onclick=reset()>Resetar</button>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Pacifico&family=Source+Sans+3:wght@300&display=swap');
+
+body{
+    background-color: #2F2F33;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #7A5000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.botao_reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset{
+    font-size: 50px;
+    color: #7A5000;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.reset:hover{
+    -webkit-text-stroke: 2px black;
+}
+
+.jogador_nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #7A5000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.tabuleiro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#A, #B, #C{
+    display: flex;
+}
+
+.botao{
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 60px;
+    color: #7A5000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.botao:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
