@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Pacifico&family=Source+Sans+3:wght@300&display=swap');
 
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
 body{
     background-color: #2F2F33;
 }
@@ -11,12 +19,16 @@ body{
     font-size: 50px;
     color: #7A5000;
     font-family: 'Bebas Neue', sans-serif;
+    height: 10%;
+    width: 100%;
 }
 
 .botao_reset{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 10%;
+    width: 100%;
 }
 
 .reset{
@@ -35,10 +47,15 @@ body{
     -webkit-text-stroke: 2px black;
 }
 
-.jogador_nome{
+.jogador{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+
+.jogador_nome{
     font-size: 50px;
     color: #7A5000;
     font-family: 'Bebas Neue', sans-serif;
@@ -49,6 +66,8 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    height: 70%;
+    width: 100%;
 }
 
 #A, #B, #C{
@@ -69,3 +88,24 @@ body{
     background-color: lightgrey;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 426px) {
+    .botao{
+        height: 100px;
+        width: 100px;
+    }
+  }
+
+@media only screen and (max-width: 376px) {
+    .botao{
+        height: 90px;
+        width: 90px;
+    }
+  }
+
+@media only screen and (max-width: 321px) {
+    .botao{
+        height: 80px;
+        width: 80px;
+    }
+  }
